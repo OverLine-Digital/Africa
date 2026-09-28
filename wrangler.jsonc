@@ -23,12 +23,9 @@
       "head_sampling_rate": 1
     }
   },
-  
-  // ...
   "vars": {
     "SUPABASE_JWKS_URL": "https://wicgjygatsldntdldqwf.supabase.co/auth/v1/.well-known/jwks.json",
     "SUPABASE_PUBLISHABLE_KEY": "sb_publishable_ctS7_ZwcoIeh29yYefnXRA_xwyEZlqZ",
     "SUPABASE_URL": "https://wicgjygatsldntdldqwf.supabase.co"
-  },
-  // ...
+  }
 }
