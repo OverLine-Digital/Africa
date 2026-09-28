@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "overline-digital",
+  "name": "africa",
   "main": ".open-next/worker.js",
   "compatibility_date": "2026-08-01",
   "compatibility_flags": ["nodejs_compat"],
@@ -23,12 +23,12 @@
       "head_sampling_rate": 1
     }
   },
-  // Les secrets (clés Supabase) ne vont JAMAIS ici en clair.
-  // Configure-les avec :
-  //   npx wrangler secret put SUPABASE_URL
-  //   npx wrangler secret put SUPABASE_SERVICE_ROLE_KEY
-  // (ou via le dashboard Cloudflare > Workers > ton projet > Settings > Variables)
+  
+  // ...
   "vars": {
-    "NEXT_PUBLIC_SUPABASE_URL": "https://kmlmemumyzhszjqzwwfq.supabase.co"
-  }
+    "SUPABASE_JWKS_URL": "https://wicgjygatsldntdldqwf.supabase.co/auth/v1/.well-known/jwks.json",
+    "SUPABASE_PUBLISHABLE_KEY": "sb_publishable_ctS7_ZwcoIeh29yYefnXRA_xwyEZlqZ",
+    "SUPABASE_URL": "https://wicgjygatsldntdldqwf.supabase.co"
+  },
+  // ...
 }
